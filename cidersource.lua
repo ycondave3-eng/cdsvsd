@@ -11,34 +11,14 @@ local plr = players.LocalPlayer
 local cam = workspace.CurrentCamera
 local mouse = plr:GetMouse()
 
-local keycodes = {
-    ['A'] = Enum.KeyCode.A,
-    ['B'] = Enum.KeyCode.B,
-    ['C'] = Enum.KeyCode.C,
-    ['D'] = Enum.KeyCode.D,
-    ['E'] = Enum.KeyCode.E,
-    ['F'] = Enum.KeyCode.F,
-    ['G'] = Enum.KeyCode.G,
-    ['H'] = Enum.KeyCode.H,
-    ['I'] = Enum.KeyCode.I,
-    ['J'] = Enum.KeyCode.J,
-    ['K'] = Enum.KeyCode.K,
-    ['L'] = Enum.KeyCode.L,
-    ['M'] = Enum.KeyCode.M,
-    ['N'] = Enum.KeyCode.N,
-    ['O'] = Enum.KeyCode.O,
-    ['P'] = Enum.KeyCode.P,
-    ['Q'] = Enum.KeyCode.Q,
-    ['R'] = Enum.KeyCode.R,
-    ['S'] = Enum.KeyCode.S,
-    ['T'] = Enum.KeyCode.T,
-    ['U'] = Enum.KeyCode.U,
-    ['V'] = Enum.KeyCode.V,
-    ['W'] = Enum.KeyCode.W,
-    ['X'] = Enum.KeyCode.X,
-    ['Y'] = Enum.KeyCode.Y,
-    ['Z'] = Enum.KeyCode.Z,
-}
+'Keybinds'] = {
+        ['Aim Assist'] = 'Z',
+        ['Silent Aim'] = 'Q',
+        ['Trigger Bot Target'] = 'C',
+        ['Trigger Bot Activate'] = 'MouseButton1',
+        ['Speed'] = 'T',
+        ['Inventory Sorter'] = 'F2',
+        ['Panic'] = 'L',
 
 local bodyParts = {
     "Head", "UpperTorso", "HumanoidRootPart", "LowerTorso",
